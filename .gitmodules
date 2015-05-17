@@ -1,0 +1,3 @@
+[submodule "trousers-testsuite-common-sys/trousers-testsuite"]
+	path = trousers-testsuite-common-sys/trousers-testsuite
+	url = git://git.code.sf.net/p/trousers/testsuite

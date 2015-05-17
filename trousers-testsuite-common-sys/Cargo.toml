@@ -1,0 +1,21 @@
+[package]
+name = "trousers-testsuite-common-sys"
+version = "0.0.0"
+authors = ["Richard Wang <zhwang@live.com.au>"]
+description = "Native bindings to the TrouSerS test suite common modules"
+repository = "https://github.com/rzhw/rust-trousers-testsuite-common"
+keywords = ["TrouSerS", "TPM", "TSS"]
+license = "MIT"
+links = "trousers-testsuite-common"
+build = "build.rs"
+
+[build-dependencies]
+gcc = "0.3"
+
+[dependencies]
+libc = "0.1"
+trousers-sys = "0.0.0"
+
+[lib]
+name = "trousers_testsuite_common_sys"
+path = "lib.rs"
