@@ -5,7 +5,7 @@ authors = ["Richard Wang <zhwang@live.com.au>"]
 description = "Native bindings to the TrouSerS test suite common modules"
 repository = "https://github.com/rzhw/rust-trousers-testsuite-common"
 keywords = ["TrouSerS", "TPM", "TSS"]
-license = "MIT"
+license = "MIT" #should be gpl?
 links = "trousers-testsuite-common"
 build = "build.rs"
 
